@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_fragment"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/collapsing_tool_bar"
+            app:collapsedTitleTextAppearance="@style/CollapsingToolbar_Collapsed_Style"
+            app:expandedTitleTextAppearance="@style/CollapsingToolbar_Expanded_Style"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <ImageView
+                android:id="@+id/header_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/post_banner" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginBottom="12dp"
+                android:background="@android:color/transparent"
+                android:elevation="0dp"
+                app:layout_collapseMode="pin"
+                app:menu="@menu/top_app_bar_menu"
+
+                app:title="Good morning, Trung Hieu Trung Hieu Trung Hieu" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/homeScreenViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+    <com.flyco.tablayout.SegmentTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_anchor="@id/topAppBar"
+        app:layout_anchorGravity="center_horizontal|bottom"
+        app:tl_bar_color="#DEDEDE"
+        app:tl_bar_stroke_color="#FFFFFF"
+        app:tl_bar_stroke_width="0dp"
+        app:tl_indicator_anim_enable="true"
+        app:tl_indicator_bounce_enable="false"
+        app:tl_indicator_color="#ECBA67"
+        app:tl_tab_padding="15dp"
+        app:tl_tab_space_equal="false"
+        app:tl_tab_width="140dp"
+        app:tl_textSelectColor="@color/black"
+        app:tl_textUnselectColor="@color/black"
+        app:tl_textsize="14sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RunForHealth</string>
+
+    // Activity, Fragment name
+    <string name="post">Post</string>
+    <string name="record">Record</string>
+    <string name="find">Find</string>
+    <string name="user">User</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+
+    // Facebook auth
+    <string name="facebook_app_id">2794995817406454</string>
+    <string name="fb_login_protocol_scheme">fb2794995817406454</string>
+    <string name="login">Đăng nhập</string>
+    <string name="currentRunning">Current Running</string>
+    <string name="listOfRunning">List of Running</string>
+    <string name="runCompleted">Run Completed</string>
+    <string name="back">Back</string>
+    <string name="luuhoatdong">Lưu hoạt động</string>
+    <string name="binhluan">Bình luận</string>
+    <string name="dang">Đăng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
