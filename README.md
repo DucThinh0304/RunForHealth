@@ -41,7 +41,7 @@ Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn
    * Tích hợp bản đồ của Google giúp bạn dễ dàng nhận dạng được vị trí cũng như là lộ trình chạy. Nhận các số liệu thống kê chính như khoảng cách, tốc độ và số lượng bước chạy đã đạt được.
    
    <p align="center">
-    <img src="https://media.giphy.com/media/BPu98cuSK4ERu5JOWY/giphy.gif" height = "510" width="245">
+    <img src="https://media.giphy.com/media/x6X6SxpvlgCgBL4yDW/giphy.gif" height = "510" width="245">
    </p>
 
 ### Tương tác với các bài viết
