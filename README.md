@@ -1,13 +1,13 @@
-# Daily Runing
+# Run For Health
 
-Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn là người chạy có kinh nghiệm muốn cải thiện khả năng chạy của mình? Daily Running là ứng dụng chạy bộ kết hợp với các mốc huy hiệu, quà tặng, giúp những người chạy có kinh nghiệm chạy nhanh hơn hoặc đào tạo để chạy bộ với số liệu thống kê mở rộng.
+Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn là người chạy có kinh nghiệm muốn cải thiện khả năng chạy của mình? Run For Health là ứng dụng chạy bộ kết hợp với các mốc huy hiệu, quà tặng, giúp những người chạy có kinh nghiệm chạy nhanh hơn hoặc đào tạo để chạy bộ với số liệu thống kê mở rộng.
 
 ## Nội dung
 
 
 1. [Chức năng](#chức-năng)
 
-   1. [Đăng nhập / Đăng kí](#đăng-nhập-/-đăng-kí)
+   1. [Đăng nhập / Đăng kí](#đăng-nhậpđăng-kí)
 
    1. [Ghi lại hoạt động chạy bộ](#ghi-lại-hoạt-động-chạy-bộ)
    
@@ -27,8 +27,6 @@ Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn
 
 1. [Tác giả](#tác-giả)
 
-1. [Giấy phép](#giấy-phép)
-
 ## Chức năng
 ### Đăng nhập/Đăng kí
    * Đăng nhập
@@ -36,8 +34,7 @@ Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn
    * Đăng kí
 
    <p align="center">
-    <img src="https://media.giphy.com/media/lAY4ivTuZOv8kq34Qr/giphy.gif" height = "510" width="245"> 
-    <img src="https://media.giphy.com/media/ErE3EDjD8erxrAraXU/giphy.gif" height = "510" width="245">
+    <img src="https://media.giphy.com/media/ZpTH6z18beureleUe8/giphy.gif" height = "510" width="245"> 
    </p>
 
 ### Ghi lại hoạt động chạy bộ
@@ -48,24 +45,24 @@ Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn
    </p>
 
 ### Tương tác với các bài viết
-   * Ghi lại quá trình chạy bộ của bạn trên nguồn cấp dữ liệu DailyRunning của bạn để bạn bè và người theo dõi có thể nhận xét và chia sẻ của riêng họ. Thể hiện tuyến đường của bạn và chia sẻ ảnh về cuộc phiêu lưu của bạn
+   * Ghi lại quá trình chạy bộ của bạn trên nguồn cấp dữ liệu RunForHealth của bạn để bạn bè và người theo dõi có thể nhận xét và chia sẻ của riêng họ. Thể hiện tuyến đường của bạn và chia sẻ ảnh về cuộc phiêu lưu của bạn
    
    <p align="center">
-    <img src="https://media.giphy.com/media/irQyJuEinGSsyJov9d/giphy.gif" height = "510" width="245">
+    <img src="https://media.giphy.com/media/WAoetwJwQivbnVvXoQ/giphy.gif" height = "510" width="245">
    </p>
 
 ### Tìm kiếm người dùng
    * Kết nối bạn với những người có cùng đam mê chạy bộ, theo dõi quá trình của họ cũng là một cách để bạn tự tạo động lực cho bản thân mình.
    
    <p align="center">
-    <img src="https://media.giphy.com/media/Usu7wy6lxjM5cEmjy5/giphy.gif" height = "510" width="245">
+    <img src="https://media.giphy.com/media/akwLo6YVNrqEHp5cbo/giphy.gif" height = "510" width="245">
    </p>
 
 ### Hệ thống huy chương và quà tặng
    * Vinh danh những người xuất sắc hoàn thành các mốc 50km, 100km, 200km, 500km, 1000km trong vòng 1 năm.
    
    <p align="center">
-    <img src="https://media.giphy.com/media/rrwbPNh2l4YdiNbJsp/giphy.gif" height = "510" width="245">
+    <img src="https://media.giphy.com/media/OELelcrsyqWmTzhXOY/giphy.gif" height = "510" width="245">
    </p>
 
 ### Theo dõi chuyển động hằng ngày
@@ -94,8 +91,6 @@ Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn
 
 - Database: Firebase Authentication, Firebase Realtime Database và Firebase Storage 
 
-* [Spotify Web API](https://github.com/kaaes/spotify-web-api-android)
-
 * [OkHttp](https://square.github.io/okhttp/)
 
 * [Bottom Navigation View Ex](https://github.com/ittianyu/BottomNavigationViewEx)
@@ -119,16 +114,12 @@ Bạn là người mới bắt đầu chạy muốn học cách chạy hay bạn
 
 ## Diagram
 
-   <img src="https://drive.google.com/uc?export=view&id=12KQaAFUHDHmqVESZHJWVpzhNRQdkq9FY" width="auto">
+   <img src="https://drive.google.com/uc?export=view&id=1uGcJpzuM45pTlyY9JgVieDgs2ggpv4ks" width="auto">
 
 ## Tác giả
-Võ Đức Trung Hiếu - 19521515@gm.uit.edu.vn
+Nguyễn Đình Đức Thịnh - 20520782@gm.uit.edu.vn
 
-Trương Hưng Huy - 19521638@gm.uit.edu.vn
+Lê Phi Long - 20520621@gm.uit.edu.vn
 
-Bùi Thanh Phú - 19522018@gm.uit.edu.vn
+Đặng Bảo Trâm - 20522033@gm.uit.edu.vn
 
-
-## Giấy phép: 
-
-DailyRunning is released under the Apache License 2.0. Copyright [2021] [See LICENSE](/LICENSE.md) for details
